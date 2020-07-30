@@ -37,7 +37,7 @@ const Upload: React.FC<UploadProps> = ({ onUpload }: UploadProps) => {
             isDragActive={isDragActive}
             isDragReject={isDragReject}
           >
-            <input {...getInputProps()} data-testid="upload" />
+            <input {...getInputProps()} data-testId="upload" />
             {renderDragMessage(isDragActive, isDragReject)}
           </DropContainer>
         )}
